@@ -1,0 +1,418 @@
+/* ------------------------------------------------- */
+
+/* -------------- */
+/*     GENERAL    */
+/* -------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans';
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+
+a, a:hover, a:visited, a:active {
+    color: inherit;
+    text-decoration: none;
+}
+
+/* ------------------------------------------------- */
+
+/* ------------- */
+/*     HEADER    */
+/* ------------- */
+
+header{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width:80%;
+    margin: 1% auto;
+}
+
+#navTop{
+    display:flex;
+    justify-content: space-between;
+    background-color:  #85929e;
+    margin: 3vh auto;
+}
+.dl, ol, ul {
+    margin-bottom: 0 !important;
+    padding-left: 0 !important;
+}
+ul{
+    display:flex;
+    list-style-type: none;
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 0;    
+}
+
+.menuBoxes{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width:10vw;
+    height:5vh;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    background-color: #85929e;
+}
+
+.menuBoxes:hover{
+    background-color:#e5e2e2;
+}
+
+#menuBox{
+    display:flex;
+    justify-content: center;
+    align-items: center; 
+    width:10vw;
+    height:5vh;
+    font-weight: bold;
+    font-family: 'PT Sans Narrow', sans-serif;
+    color: white;
+    background-color: #ccb861;
+}
+
+#menuBox:hover{
+    background-color: #baa64e;
+}
+
+/* ------------- */
+/*     MOBILE   */
+/* ------------- */
+
+@media screen and (max-width: 750px){
+
+    #navTop{
+        width:100%;
+    }
+    ul{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .menuBoxes{
+        width:100%;
+    }
+
+    #menuBox{
+        width:100%;
+    }
+
+}
+
+/* ------------- */
+/*     TABLET    */
+/* ------------- */
+
+@media screen and (max-width: 950px){
+
+    #navTop{
+        width:100%;
+    }
+    ul{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .menuBoxes{
+        width:100%;
+    }
+
+    #menuBox{
+        width:100%;
+    }
+}
+
+/* ------------------------------------------------- */
+
+/* -------------- */
+/*     CONTENU    */
+/* -------------- */
+main{
+    width:80%;
+    margin: 2vh auto;
+}
+
+h1, p{
+    margin: 2vh auto;
+    text-align: justify
+}
+
+tr {
+    border: 0.5px solid #85929e;  
+}
+td, th {
+    border: 0.5px solid #85929e;  
+    text-align: center;
+    padding: 1vh 0;
+}
+
+th{
+    background:#ccb861;
+}
+
+#activitiesTab {
+    width:100%;
+    border-spacing: 0;
+}
+
+#headerRow{
+    color: white; 
+}
+
+.secondTab {
+    width:100%;
+    text-align: center;
+}
+
+/* ------------- */
+/*     MOBILE   */
+/* ------------- */
+
+@media screen and (max-width: 750px){
+
+    h1{
+        text-align: center;
+    }
+}
+
+/* ------------- */
+/*     TABLET    */
+/* ------------- */
+
+@media screen and (max-width: 950px){
+
+    h1{
+        text-align: center;
+    }
+}
+
+/* ------------------------------------------------- */
+
+/* ------------- */
+/*     FOOTER    */
+/* ------------- */
+footer{
+    width:100%;
+    height: 30%vh;
+    background-color: #85929e;
+}
+
+h2{
+    color:white;
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    padding: 5vh 0 0 0;
+}
+
+#bottomPhrase{
+    color:white;    
+    text-align: center;
+    font-size: 0.5em;
+    padding: 2vh 0;
+}
+
+#bottomLinks{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    width:80%;
+    margin: 2vh auto;
+}
+
+#bottomNav{
+    width:60%;
+}
+
+#bottomUl{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-between;
+}
+
+.BottomBoxes{
+    display:flex;
+    align-items: center; 
+    width:5vw;
+    height:5vh;
+    font-size:0.7em;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: #85929e;
+}
+
+#otherLinks{
+    
+    width:40%;
+    height:20vh;
+    padding: 2vh 0 0 !important;
+}
+
+#fontAwesomeLinks{
+    display:flex;
+    justify-content:space-between;
+    width:40%;
+    font-size: 1.5em;
+    margin:0 auto;
+    color:white;
+    
+}
+
+
+#boxPNewsletter{
+    width:40%;
+    margin: 0 auto;
+}
+
+#bottomP{
+    color:white;
+    margin: 3vh auto 2vh;
+    font-size: 0.9em;
+    font-weight: bold;
+}
+
+#Newsletter{
+    text-align: center !important;
+    color:white !important;
+    background-color: #ccb861 !important;
+    margin: 1vh auto !important;
+    padding:  1vh 1vw !important;
+}
+
+
+/* ------------- */
+/*     MOBILE   */
+/* ------------- */
+
+@media screen and (max-width: 750px){
+
+    #bottomLinks{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:80%;
+        margin: 2vh auto;
+    }
+
+    #bottomNav{
+        width:100%;
+    }
+
+    #bottomUl{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .BottomBoxes{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+
+    #menuBox{
+        
+        width:100%;
+    }
+
+    #fontAwesomeLinks{       
+        width:100%;        
+    }
+
+    #boxPNewsletter{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
+    #bottomP{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #Newsletter{
+        color:white !important;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width:80%;
+    }
+}
+
+/* ------------- */
+/*     TABLET    */
+/* ------------- */
+
+@media screen and (max-width: 950px)
+{
+
+
+    #bottomLinks{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width:80%;
+        margin: 2vh auto;
+    }
+
+    #bottomNav{
+        width:100%;
+    }
+
+    #bottomUl{
+        flex-direction: column;
+        width:100%;
+    }
+
+    .BottomBoxes{
+        width:100%;
+        display:flex;
+        justify-content: center;
+    }
+
+    #menuBox{
+        
+        width:100%;
+    }
+
+    #fontAwesomeLinks{       
+        width:100%;        
+    }
+
+    #boxPNewsletter{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width:100%;
+    }
+
+    #bottomP{
+        text-align: center;
+        font-size: 0.8em;
+    }
+
+    #Newsletter{
+        color:white !important;
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        width:80%;
+    }
+
+}
