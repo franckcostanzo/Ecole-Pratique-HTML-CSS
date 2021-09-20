@@ -1,2 +1,4 @@
 # Ecole-Pratique-HTML-CSS
-Tous les exercices faits en formation
+
+Tp :
+créer un site à partir d'images données et d'instructions
